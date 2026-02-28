@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-memorydb`](https://www.npmjs.com/package/@aws-sdk/client-memorydb/v/3.999.0).
+[`@aws-sdk/client-memorydb`](https://www.npmjs.com/package/@aws-sdk/client-memorydb/v/3.1000.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-memorydb@3.999.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-memorydb@3.1000.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-/GH4yv432w7+vz5ly8fYgo5xYM30XVMUeSI75ZVjMb+y9ezs84K1O3UXrJ00iZF1
+sha384-NzR077/Kl33IFhZprCkq9GmxX6za+L2nclD7Clvb5KXHCnKau8A8rVL0Z/20ell5
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-memorydb": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-memorydb@3.999.0/index.min.mjs"
+            "@aws-sdk/client-memorydb": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-memorydb@3.1000.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-memorydb@3.999.0/index.min.mjs": "sha384-/GH4yv432w7+vz5ly8fYgo5xYM30XVMUeSI75ZVjMb+y9ezs84K1O3UXrJ00iZF1"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-memorydb@3.1000.0/index.min.mjs": "sha384-NzR077/Kl33IFhZprCkq9GmxX6za+L2nclD7Clvb5KXHCnKau8A8rVL0Z/20ell5"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-memorydb": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-memorydb@3.999.0/index.min.mjs"
+                        "@aws-sdk/client-memorydb": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-memorydb@3.1000.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-memorydb@3.999.0/index.min.mjs": "sha384-/GH4yv432w7+vz5ly8fYgo5xYM30XVMUeSI75ZVjMb+y9ezs84K1O3UXrJ00iZF1"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-memorydb@3.1000.0/index.min.mjs": "sha384-NzR077/Kl33IFhZprCkq9GmxX6za+L2nclD7Clvb5KXHCnKau8A8rVL0Z/20ell5"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.999.0`)
+* Always pin to a specific version (`@3.1000.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-memorydb/blob/refs/tags/3.999.0/LICENSE
+https://github.com/cloud-sdk-builds/client-memorydb/blob/refs/tags/3.1000.0/LICENSE
 ```
 
 ---
